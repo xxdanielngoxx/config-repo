@@ -1,3 +1,4 @@
+encrypt.key: test-encrypt-spring-cloud
 tracer.property: "I AM THE DEFAULT"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform: "postgres"
