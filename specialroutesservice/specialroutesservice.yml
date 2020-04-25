@@ -1,0 +1,12 @@
+tracer.property: "I AM THE DEFAULT"
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform: "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
+spring.datasource.username: "{cipher}28bbce0cf84a0681a8cd31615ff6812df8a5397f32d7e69c5afc99c6be8900ac"
+spring.datasource.password: "{cipher}a5b96a594227edffba6d8c4f1390736f907aaa7713b721a374f1c2e784b56287c9a321a4186ae1ce8fddf3e0ed882350"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+spring.jpa.hibernate.ddl-auto: update
